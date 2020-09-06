@@ -44,12 +44,7 @@ def hit? (card_total)
   prompt_user()
   get_user_input()
   user_input = get_user_input()
-  if (user_input == 'h')
-    deal_card()
-  elsif (user_input == 's')
-else 
-    invalid_command()
-  end 
+  while user_input != 'h' && user_input
   card_total
 end
 
