@@ -49,7 +49,7 @@ def hit? (card_total)
   elsif (user_input == 's')
 else 
     invalid_command()
-  #end 
+  end 
   card_total
 end
 
