@@ -69,7 +69,7 @@ def runner
   card_sum = initial_round()
   while (card_sum <= 21)
   card_sum = hit?(card_sum)
-
+end 
   
 end
     
